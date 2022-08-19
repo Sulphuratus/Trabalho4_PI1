@@ -1,0 +1,137 @@
+/*estilop3.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    
+    /*font-family: Truculenta;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("space1.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+
+#pgfoto{
+    width: 100%;
+    /*margin: 0 auto;*/
+    
+    display: grid;
+    grid-template-areas: 
+    "maior     maior    maior"
+    "foto1     foto2    foto3"
+    "foto4     foto5    foto6"
+    "foto7     foto8    foto9"
+    ".    foto10   ."
+    ;
+}
+
+#maior{
+    grid-area: maior;
+    align-items: center;
+    margin: auto ;
+    
+}
+
+#foto1{
+    grid-area: foto1;
+    padding: 0.5em;
+}
+
+#foto2{
+    grid-area: foto2;
+    padding: 0.5em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+#foto3{
+    grid-area: foto3;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto4{
+    grid-area: foto4;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto5{
+    grid-area: foto5;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto6{
+    grid-area: foto6;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto7{
+    grid-area: foto7;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto8{
+    grid-area: foto8;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto9{
+    grid-area: foto9;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#foto10{
+    grid-area: foto10;
+    padding: 0;
+}
+
+
+
+

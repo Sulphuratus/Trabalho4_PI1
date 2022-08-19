@@ -1,0 +1,56 @@
+/*estilop5.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    
+    /*font-family: Truculenta;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("space3.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#videos{
+    text-align: center;
+}

@@ -1,0 +1,119 @@
+/*estilop7.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    
+    /*font-family: Truculenta;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("hills.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+h3{
+    background-color: rgb(20, 24, 24);
+    width: 30%;
+    margin: auto;
+    border-radius: 1vh;
+    border:1px solid #becc00;
+}
+
+#pgloja{
+    width: 100%;
+    /*margin: 0 auto;*/
+    
+    display: grid;
+    grid-template-areas: 
+    "prod1     prod2"
+    "prod3     prod4"
+    "prod5     prod6"
+    ;
+
+}
+
+#prod1{
+    grid-area: prod1;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+}
+
+#prod2{
+    grid-area: prod2;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+
+}
+
+#prod3{
+    grid-area: prod3;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+
+}
+
+#prod4{
+    grid-area: prod4;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+
+}
+
+#prod5{
+    grid-area: prod5;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+  
+}
+
+#prod6{
+    grid-area: prod6;
+    padding: 0.5em;
+    color: #becc00;
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+/*estilop4.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    
+    /*font-family: Truculenta;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("space21.jpeg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 5em;
+    
+    /*background-color: rgb(209, 139, 19);*/
+
+}
+
+#menu{   
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#formulario {
+    background-color: rgba(232, 125, 19, 0.8);
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    /*position: absolute;*/
+    text-align: center;
+    top: 100px;
+    left: 20px;
+}
+
+input[type=text]{
+    font-size: large;
+    font-family: 'Skranji', cursive;
+    height: 35px;
+    width: 565px;
+    border: 2px solid blue;
+}
+
+input[type=submit]{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Skranji', cursive;
+}
+
+textarea{
+    font-size: large;
+    font-family: 'Skranji', cursive;
+    border: 2px solid blue;
+}
+
+#usuario{
+    margin: 1em;
+}
+
+#email{
+    margin: 1em;
+}
+
+#fone{
+    margin: 1em;
+}
+
+#campo{
+    margin: 1em;
+}

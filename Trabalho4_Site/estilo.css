@@ -1,0 +1,72 @@
+/*estilo.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,900&display=swap');*/
+
+
+body{
+    /*background-color: rgb(65, 28, 4);*/
+    height: 100vh;
+    
+    font-family: 'Skranji', cursive;
+
+    /*font-family: Truculenta;*/
+
+    background-image: url("lafutura.jpg");
+    background-position: 30% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#menu{    
+    padding: 0.5em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+#historia{
+   background-color: rgb(227, 72,30, 0.5);
+   position:absolute;
+   top:initial;
+   left: 20px;
+   width: 200px;
+   color: rgb(77, 15, 39);
+   padding: 1em;
+
+}
+
+#chegada{
+    margin-left: 800px;
+    margin-top: 8em;
+    color: #800000;
+}
+

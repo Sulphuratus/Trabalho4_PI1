@@ -1,0 +1,80 @@
+/*estilop2.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    /*background-color: rgb(65, 28, 4);
+    height: 200vh;*/
+
+    height: auto;
+    font-family: 'Skranji', cursive;
+
+    background-image: url("eliminator.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+
+
+#menu{    
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:link{
+    color: #cc9900;
+}
+
+#menu ul li{
+    display:inline-block;
+    background-color: #800000;
+    color: #cc9900 ;
+    border-radius: 15px;
+    padding: 0.5em 0.5em;
+    margin: 0 1vh;
+    border: 2px solid;
+    
+}
+
+table{
+    border-collapse: collapse;
+    color: #cc9900;
+    margin-top: 100px;
+}
+
+th{
+   font-size:xx-large;
+   text-align: left;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(79, 2, 25,0.5);
+
+}
+
+tr{
+    height: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+
+tr:hover {
+    background-color: rgb(227,72,30,0.5);
+}
